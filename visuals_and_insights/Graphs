@@ -1,0 +1,33 @@
+## Visualizations & Insights  
+
+### Brand Performance Over Time  
+![Brand Sales Comparison](Kitchens_study_case/visuals_and_insights/Images)
+
+In this graph we can clearly see how **SushiFast** is far outperforming the others in these 3 days, with more than **2x the sales** of the closest competitor.  
+
+Does this mean that monthly or yearly it will be twice as profitable? **Not necessarily**. It only shows that something happened during this short period.  
+
+Comparing it with our **cluster chart**, we see that the number of clients is small, which means it’s unlikely to be explained by small-item sales. Instead, a **small group of buyers made very large purchases**.  
+
+With no further data, it’s hard to guess the cause. Possible explanations could be:  
+- A strong sales team  
+- Sheer luck  
+- The brand already being a staple in the market  
+- Longer presence compared to rivals  
+
+📌 Example: In São Paulo (a city where both BurgerX and SushiFast operate), there are about **8,000 burger places** but only **600 sushi restaurants**. Would this explain the nearly 5x sales difference in this location? **Probably not**, but it is a starting point for deeper analysis with a larger dataset.  
+
+---
+
+### Multi-Location Brand Analysis  
+![Multi-Location Performance](visuals/multi_location.png)  
+
+Another insight is that **BurgerX is the only brand present in two locations**, yet it shows the **worst sales overall** when combining both stores.  
+
+- This cannot be explained by location, since it **shares a location with SushiX**, which is performing very well.  
+- Possible reasons:  
+  - Weak marketing efforts  
+  - Low average ticket size  
+  - Higher competition in the burger segment  
+
+Most likely it’s a **combination of factors**, which already gives us **guidance for a future, larger-scale analysis**.  
