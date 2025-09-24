@@ -15,6 +15,28 @@ The dataset was a **sample generated with Excel** (available in this repo), simu
 
 - **Kitchen locations**: The three locations considered seem to be reasonably well placed. Poorer sales from certain brands may not necessarily be tied to location.  
 
+## Ghost Kitchen Concept & Data Modeling
+
+A **ghost kitchen** is a delivery-only food service model where kitchens operate without a physical dine-in space. Multiple brands can run from the same kitchen, focusing purely on online orders and delivery efficiency. This allows for faster scaling, lower operational costs, and flexible menu testing.
+
+For this project, I modeled the data using a **star-shaped table structure** to make insights clearer and scalable:  
+
+- **Orders** as the central fact table, containing transactions.  
+- **Customers**, **Brands**, **Kitchens**, and **Calendar** as dimension tables, providing attributes for analysis.  
+
+Even with a **small dataset**, using a star schema was important because it:  
+- Improves clarity of relationships between tables.  
+- Makes the model more intuitive to explore in Power BI.  
+- Sets a foundation for **future growth**, so the same structure can support much larger datasets without major redesign.  
+
+I could have created **more links and relationships** across the tables, but in this project they didn’t feel necessary. For such a limited dataset, keeping the model simple was the best choice to focus on business insights rather than overcomplicating the schema.
+
+<img width="901" height="685" alt="Structure_gk" src="https://github.com/user-attachments/assets/78b463d1-501e-46aa-b017-48544cbd4051" />
+
+
+
+This structure allows easy exploration of trends, brand performance, customer behavior, and location insights, while setting the foundation for future growth and expansion of the dataset.
+
 ## Next Steps  
 
 This small-scale analysis demonstrates how even limited data can spark questions. With a larger dataset, these hypotheses could be tested more robustly, enabling deeper insights into:  
